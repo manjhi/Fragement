@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/clickme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@android:color/holo_green_light"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/changeme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second Hello"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="40sp"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"/>
+</LinearLayout>
